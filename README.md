@@ -1,6 +1,10 @@
 # Perl_PIDController
 A PID controller (proportional–integral–derivative controller) for Perl
 
+## Usage as P, I, PI, PD, PID controller
+If you don't want any of the controller parts, set it's value to 0.
+E.g. setting D=>0 will give you a PI controller.
+
 # Usage
 
 ``` perl
